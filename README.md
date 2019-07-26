@@ -1,11 +1,21 @@
 # Adding package to your project
+
+```
 import sys
+```
 
-PACKAGE_PATH = '' ``#`` set the package path
+``#`` set the package path
+```
+PACKAGE_PATH = '' 
+```
 
+```
 sys.path.insert(0, PACKAGE_PATH)
+```
 
+```
 from math_package import simple_math
+```
 
 # Test function
 ```
