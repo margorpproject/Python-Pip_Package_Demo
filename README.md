@@ -2,18 +2,8 @@
 
 ```
 import sys
-```
-
-``#`` set the package path
-```
-PACKAGE_PATH = '' 
-```
-
-```
+PACKAGE_PATH = 'path/to/package'
 sys.path.insert(0, PACKAGE_PATH)
-```
-
-```
 from math_package import simple_math
 ```
 
